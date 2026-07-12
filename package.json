@@ -1,0 +1,25 @@
+{
+  "name": "musika-discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that follows a user's currently playing Spotify track and automatically plays a matching version in a Discord voice channel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cardingpats/musika-discord-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/cardingpats/musika-discord-bot/issues"
+  },
+  "homepage": "https://github.com/cardingpats/musika-discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.26.5",
+    "dotenv": "^17.4.2"
+  }
+}
