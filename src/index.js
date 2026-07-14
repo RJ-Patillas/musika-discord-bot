@@ -1,4 +1,6 @@
-require('dotenv').config();
+require('dotenv').config({
+  path: '../config/.env'
+});
 
 const { Client, GatewayIntentBits } = require('discord.js');
 
